@@ -1,4 +1,4 @@
-# CNN-for-image-classification
+# Convolutional neural newtork for image classification
 
 Developed by: A. Santopaolo (2019).
 
