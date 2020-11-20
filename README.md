@@ -16,19 +16,19 @@ A weather dataset is used. It is stored in Google Drive, and it is divided into 
 
 <h3>MugnanoNet</h3>
 Structure of the network:
-    - Input layer is of size 227x227x3
-    -  Convolutional layer with kernel size of 11x11x3, 96 such kernels
-    -  Max pooling layer with size 3x3 and stride 2
-    -  Convolutional layer with kernel size of 5x5x96, 256 such kernels
-    -  Max pooling layer with size 3x3 and stride 2
-    - Convolutional layer with kernel size of 3x3x256, 384 such kernels, padding to maintain width and height
-    -  Convolutional layer with kernel size of 3x3x384, 384 such kernels, padding to maintain width and height
-    -  Convolutional layer with kernel size of 3x3x384, 256 such kernels, padding to maintain width and height
-    -  Max pooling layer with size 3x3 and stride 3
-    - Fully connected layer with 4096 neurons
-    -  Fully connected layer with 4096 neurons
-    -  Fully connected layer with 64 neurons
-    -  Softmax classification layer with 4 classes
+- Input layer is of size 227x227x3
+-  Convolutional layer with kernel size of 11x11x3, 96 such kernels
+-  Max pooling layer with size 3x3 and stride 2
+-  Convolutional layer with kernel size of 5x5x96, 256 such kernels
+-  Max pooling layer with size 3x3 and stride 2
+- Convolutional layer with kernel size of 3x3x256, 384 such kernels, padding to maintain width and height
+-  Convolutional layer with kernel size of 3x3x384, 384 such kernels, padding to maintain width and height
+-  Convolutional layer with kernel size of 3x3x384, 256 such kernels, padding to maintain width and height
+-  Max pooling layer with size 3x3 and stride 3
+- Fully connected layer with 4096 neurons
+-  Fully connected layer with 4096 neurons
+-  Fully connected layer with 64 neurons
+-  Softmax classification layer with 4 classes
 
 Heavy fluctuation of the results are obtained, probably due to under-fitting. The accuracy obtained is 0.65.
 
