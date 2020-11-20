@@ -11,7 +11,7 @@ Convolutional Neural Networks are used since they are able to deal with multi-di
 
 Two different approaches are followed in this work: first, a Convolutional Neural Network is created, trained and tested. It is named MugnanoNet. Then, transfer learning is applied: in this way, a pre-trained model is used and compared with MugnanoNet.
 
-<h3>Dataset<\h3>
+<h3> Dataset <\h3>
 A weather dataset is used. It is stored in Google Drive, and it is divided into different folders. Four classes are considered: haze, sunny, snowy, rainy. The dataset is balanced, therefore the accuracy is chosen as main metric for the evaluation. Also a blind test set is used at the end of the project.
 
 <h3>MugnanoNet<\h3>
