@@ -12,6 +12,7 @@ Convolutional Neural Networks are used since they are able to deal with multi-di
 Two different approaches are followed in this work: first, a Convolutional Neural Network is created, trained and tested. It is named MugnanoNet. Then, transfer learning is applied: in this way, a pre-trained model is used and compared with MugnanoNet.
 
 <h3> Dataset </h3>
+
 A weather dataset is used. It is stored in Google Drive, and it is divided into different folders. Four classes are considered: haze, sunny, snowy, rainy. The dataset is balanced, therefore the accuracy is chosen as main metric for the evaluation. Also a blind test set is used at the end of the project.
 
 <h3>MugnanoNet</h3>
@@ -39,4 +40,5 @@ Heavy fluctuation of the results are obtained, probably due to under-fitting. Th
 Downloaded VGG16 with parameters trained with Imagenet.  Set the 3rd convoloutional layer of the 5th block trainable. Flattened the layers. Added two dense layers with  100 and 64 neurons respectively,added dropout after dense layers and also used L2 regularisaton for thes etrainable  dense  layers.   Finally  passed  to  the  output  layer  with  softmaxactivation to get the final prediction of the classes. Got good performace.
 
 <h3>Implementation Details</h3>
+
 The code has been written in Google Colaboratory for Python. The dataset is stored in a personal Google Drive folder. The code is available, and can be opened in Colab. To run, you need to link a valid dataset via Drive or other storing platforms.
