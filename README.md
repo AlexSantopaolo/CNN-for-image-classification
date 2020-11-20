@@ -15,7 +15,9 @@ Two different approaches are followed in this work: first, a Convolutional Neura
 A weather dataset is used. It is stored in Google Drive, and it is divided into different folders. Four classes are considered: haze, sunny, snowy, rainy. The dataset is balanced, therefore the accuracy is chosen as main metric for the evaluation. Also a blind test set is used at the end of the project.
 
 <h3>MugnanoNet</h3>
+
 Structure of the network:
+
 * Input layer is of size 227x227x3
 * Convolutional layer with kernel size of 11x11x3, 96 such kernels
 *  Max pooling layer with size 3x3 and stride 2
