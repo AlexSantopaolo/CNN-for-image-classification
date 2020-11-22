@@ -6,10 +6,9 @@ Supervisor: prof. L. Iocchi.
 
 Achievement: Machine Learning exam (partial).
 
+<h3> Introduction </h3>
 
-Convolutional Neural Networks are used since they are able to deal with multi-dimensional data by means of a kernel that moves along the image and perform some operations on it, so as to obtain some new representation of that image.
-
-Two different approaches are followed in this work: first, a Convolutional Neural Network is created, trained and tested. It is named MugnanoNet. Then, transfer learning is applied: in this way, a pre-trained model is used and compared with MugnanoNet.
+Convolutional Neural Networks are used since they are able to deal with multi-dimensional data by means of a kernel that moves along the image and perform some operations on it, so as to obtain some new representation of that image. Two different approaches are followed in this work: first, a Convolutional Neural Network is created, trained and tested. It is named MugnanoNet. Then, transfer learning is applied: in this way, a pre-trained model is used and compared with MugnanoNet.
 
 <h3> Dataset </h3>
 
